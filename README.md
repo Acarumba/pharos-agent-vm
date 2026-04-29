@@ -16,7 +16,22 @@ Pharos Agent VM brings:
 - Transparent logic
 - Verifiable outputs
 - Lightweight autonomous coordination
-- Scalable deployment through PHAROS modular architecture
+- Scalable deployment through PHAROS modular architecture.
+- Architecture
+User Script → Compiler → Bytecode → Agent VM → Signed Output → PHAROS Registry
+Future PHAROS Integrations
+SPN-native execution clusters
+WASM backend
+Agent marketplaces
+On-chain leaderboards
+IoT / robotics agents
+Treasury automation
+Demo Use Cases
+Market forecasting agents
+Oracle agents
+DePIN automation
+Gaming AI NPCs
+Autonomous treasury logi
 
 ## Example Agent
 
@@ -27,3 +42,5 @@ if price > moving_avg:
     signal = BUY
 else:
     signal = HOLD
+'''
+
